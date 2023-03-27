@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=EB+Garamond&family=PT+Serif&family=Roboto:wght@100;300;400;500&display=swap");
+
+/* ===== GOOGLE FONT =====  */
+
+/* 
+
+font-family: 'Cormorant Garamond', serif;
+
+font-family: 'EB Garamond', serif;
+
+font-family: 'PT Serif', serif;
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact__navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #d9d9d9;
+}
+
+.contact__navbar h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6rem;
+  cursor: pointer;
+}
+
+.contact__navbar span {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.contact__navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4rem;
+  color: rgb(0, 0, 0);
+}
+
+.contact__navbar ul li {
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.contact__navbar ul li a {
+  color: rgb(0, 0, 0);
+}
+
+.contact__navbar ul li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.contact__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #342f2f;
+}
+
+.contact__heading li {
+  list-style: square;
+  color: white;
+}
+
+.contact__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+  width: 100%;
+  background-color: #342f2f;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.contact__main__box {
+  width: 35%;
+  height: 65vh;
+  background-color: antiquewhite;
+}
+
+
+/* ===== FOOTER =====  */
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #655d5d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.himanshu {
+  color: black;
+  font-size: 1rem;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.himanshu span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.himanshu span a {
+  list-style: none;
+  color: black;
+}
+
+.social_img {
+  font-family: "Roboto", sans-serif;
+  padding-right: 3rem;
+}
+.social_img {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000000;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  padding-right: 3rem;
+  cursor: pointer;
+}
+
+/* ===== FOOTER END =====  */
