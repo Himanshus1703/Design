@@ -74,6 +74,45 @@ font-family: 'Roboto', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+.sub_left {
+  text-align: center;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.portImg {
+  border-radius: 50rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  margin: 2rem;
+  align-self: center;
+  background-color: #342f2f;
+}
+
+.sub_left h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.sub_left p {
+  font-size: 1rem;
+}
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #736c6c;
+}
+
+.icon_img {
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
 .right {
   display: grid;
   height: 100vh;
@@ -276,6 +315,26 @@ button:hover {
     justify-content: center;
     font-size: 2rem;
   }
+  .portImg {
+    border-radius: 50rem;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin: 2rem;
+    align-self: center;
+    background-color: #342f2f;
+  }
+  .sub_left h1 {
+    font-size: 2.5rem;
+  }
+  .sub_left p {
+    font-size: 0.9rem;
+  }
+
+  .icon_img {
+    padding: 0 1rem;
+    margin: 0.8rem 0;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -325,6 +384,28 @@ button:hover {
     position: absolute;
     top: 137rem;
   }
+
+  .portImg {
+    border-radius: 50rem;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin: 2rem;
+    align-self: center;
+    background-color: #342f2f;
+  }
+  .sub_left h1 {
+    font-size: 2.5rem;
+  }
+  .sub_left p {
+    font-size: 0.9rem;
+  }
+
+  .icon_img {
+    padding: 0 4rem;
+    /* gap: 40rem; */
+    margin: 0.8rem 0;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
@@ -333,5 +414,25 @@ button:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+  }
+  .portImg {
+    border-radius: 50rem;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin: 2rem;
+    align-self: center;
+    background-color: #342f2f;
+  }
+  .sub_left h1 {
+    font-size: 2rem;
+  }
+  .sub_left p {
+    font-size: 0.7rem;
+  }
+
+  .icon_img {
+    padding: 0 0.5rem;
+    margin: 0.8rem 0;
   }
 }
